@@ -1,3 +1,35 @@
+# Tailwind CSS and daisyUI Setup
+
+## Tailwind CSS
+
+Follow guidance for [create-react-app](https://tailwindcss.com/docs/guides/create-react-app) for installaction and updating `tailwind.config.js` and `index.css`
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+```
+
+## daisyui
+
+```bash
+npm i daisyui
+```
+
+Update `tailwind.config.js`
+
+```js
+module.exports = {
+
+    plugins: [
+      require('daisyui'), // add this
+    ],
+
+  }
+```
+
+Change the daisyUI theme by adding `data-theme="light"` as an attribute in the `<html>` tag in index.html.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
