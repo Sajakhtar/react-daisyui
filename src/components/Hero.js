@@ -18,8 +18,8 @@ function Hero() {
             <LoginIcon className="h-5 w-5 mr-2"/>
             Connect Wallet
           </button>
-          <div class="mt-4">
-            <button data-toggle-theme="dark,light" data-act-class="ACTIVECLASS"  class="btn btn-square btn-secondary btn-sm">
+          <div className="mt-4">
+            <button data-toggle-theme="dark,light" data-act-class="ACTIVECLASS"  className="btn btn-square btn-secondary btn-sm">
               <MoonIcon className="h-5 w-5"/>
               {/* <SunIcon className="h-5 w-5"/> */}
             </button>
