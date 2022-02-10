@@ -1,8 +1,6 @@
 import { LoginIcon } from '@heroicons/react/outline';
 import { SunIcon, MoonIcon } from '@heroicons/react/solid';
 
-
-
 function Hero() {
   return (
     <div className="hero min-h-screen bg-base-200">
@@ -23,6 +21,7 @@ function Hero() {
               <MoonIcon className="h-5 w-5"/>
               {/* <SunIcon className="h-5 w-5"/> */}
             </button>
+            <input type="checkbox" className="toggle" />
           </div>
         </div>
       </div>
