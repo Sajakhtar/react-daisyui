@@ -29,6 +29,15 @@ module.exports = {
 
 Change the daisyUI theme by adding `data-theme="light"` as an attribute in the `<html>` tag in index.html.
 
+### Theme Change
+
+Install and use as per [documentation](https://github.com/saadeghi/theme-change#js)
+
+```bash
+npm i theme-change --save
+```
+
+
 ## heroicons
 
 ```bash
