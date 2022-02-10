@@ -1,4 +1,4 @@
-# Tailwind CSS and daisyUI Setup
+# Setup
 
 ## Tailwind CSS
 
@@ -28,6 +28,19 @@ module.exports = {
 ```
 
 Change the daisyUI theme by adding `data-theme="light"` as an attribute in the `<html>` tag in index.html.
+
+## heroicons
+
+```bash
+npm install @heroicons/react
+```
+
+Instructions for React available in the [repo](https://github.com/tailwindlabs/heroicons)
+
+Icons:
+- The list of [icon names](https://unpkg.com/browse/@heroicons/react@1.0.5/outline/)
+- alternatively, the `<svg>` tag can be copied from the [website](https://heroicons.com/)
+- [Bootsrap icons](https://icons.getbootstrap.com/) has more icon options such as social platform icons or bitcoin icon
 
 
 # Getting Started with Create React App
