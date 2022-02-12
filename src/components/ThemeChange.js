@@ -29,7 +29,7 @@ function ThemeChange() {
 
   return (
     <div>
-      <button data-toggle-theme="dark,light" data-act-class="ACTIVECLASS"  className="btn btn-square btn-accent btn-sm" onClick={handleThemeIcon} ref={themeRef}>
+      <button data-toggle-theme="dark,light" data-act-class="ACTIVECLASS"  className="btn btn-square btn-ghost btn-sm" onClick={handleThemeIcon} ref={themeRef}>
         {/* <MoonIcon className="h-5 w-5"/> */}
         {/* <SunIcon className="h-5 w-5"/> */}
       </button>

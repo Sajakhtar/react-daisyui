@@ -18,9 +18,9 @@ function Hero() {
             <LoginIcon className="h-5 w-5 mr-2"/>
             Connect Wallet
           </button>
-          <div className="mt-4">
+          {/* <div className="mt-4">
             <ThemeChange />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
