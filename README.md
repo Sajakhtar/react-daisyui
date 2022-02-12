@@ -126,6 +126,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # To Do
 
-- navbar - move theme change button there
-- hook to change moon to sun icon
 - stacks.js packages and auth
