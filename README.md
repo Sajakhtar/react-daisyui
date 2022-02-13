@@ -52,6 +52,16 @@ Icons:
 - [Bootsrap icons](https://icons.getbootstrap.com/) has more icon options such as social platform icons or bitcoin icon
 
 
+## Stacks.js
+
+```bash
+npm install @stacks/connect
+
+npm install @stacks/profile
+
+npm install @stacks/storage
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
