@@ -60,6 +60,8 @@ npm install @stacks/connect
 npm install @stacks/profile
 
 npm install @stacks/storage
+
+npm install @stacks/connect-react
 ```
 
 # Getting Started with Create React App

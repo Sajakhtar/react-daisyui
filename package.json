@@ -5,6 +5,7 @@
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "@stacks/connect": "^6.4.0",
+    "@stacks/connect-react": "^13.0.0",
     "@stacks/profile": "^3.2.0",
     "@stacks/storage": "^3.2.0",
     "@testing-library/jest-dom": "^5.16.2",
