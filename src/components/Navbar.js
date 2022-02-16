@@ -1,5 +1,6 @@
 import { LoginIcon } from '@heroicons/react/outline';
 import ThemeChange from './ThemeChange';
+import ConnectWallet from './ConnectWallet';
 
 
 function Navbar() {
@@ -32,10 +33,7 @@ function Navbar() {
           </div>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-sm btn-primary mr-2">
-            <LoginIcon className="h-5 w-5 mr-2"/>
-            Connect
-          </button>
+          <ConnectWallet />
           <ThemeChange/>
         </div>
       </div>
