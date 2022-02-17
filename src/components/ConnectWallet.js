@@ -1,6 +1,6 @@
 // import { Connect } from '@stacks/connect-react';
 import React from 'react';
-// import { authenticate } from '../auth';
+// import { authenticate } from '../lib/auth';
 import { LoginIcon } from '@heroicons/react/outline';
 
 function ConnectWallet() {
