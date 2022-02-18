@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { LoginIcon } from '@heroicons/react/outline';
 // import { showConnect } from '@stacks/connect';
 // import { userSession } from '../lib/auth';
+// import { useConnect } from "@stacks/connect-react";
+
 
 function ConnectWallet() {
   // const [isLoginProcessStarted, setLoginProcessStarted] = useState(false)
@@ -26,6 +28,7 @@ function ConnectWallet() {
 	// 	})
 	// }, [])
 
+  // const { doOpenAuth } = useConnect();
 
   return (
     <div>
@@ -33,6 +36,7 @@ function ConnectWallet() {
         className="btn btn-primary"
         // onClick={handleAuthentication}
 				// disabled={isLoginProcessStarted}
+        // onClick={() => doOpenAuth()}
       >
         <LoginIcon className="h-5 w-5 mr-2"/>
         Connect Wallet
