@@ -1,6 +1,6 @@
 // import { Connect } from '@stacks/connect-react';
 import React, { useState } from 'react';
-// import { authenticate } from '../lib/auth';
+import { authenticate } from '../lib/auth';
 import { LoginIcon } from '@heroicons/react/outline';
 // import { showConnect } from '@stacks/connect';
 // import { userSession } from '../lib/auth';
@@ -37,6 +37,7 @@ function ConnectWallet() {
         // onClick={handleAuthentication}
 				// disabled={isLoginProcessStarted}
         // onClick={() => doOpenAuth()}
+        onClick={() => authenticate()}
       >
         <LoginIcon className="h-5 w-5 mr-2"/>
         Connect Wallet

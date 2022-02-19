@@ -1,23 +1,23 @@
-// import { AppConfig, UserSession, showConnect } from '@stacks/connect';
+import { AppConfig, UserSession, showConnect } from '@stacks/connect';
 // import { Person } from '@stacks/profile';
 
 // const appConfig = new AppConfig(['store_write', 'publish_data']);
 
-// export const userSession = new UserSession({ appConfig });
+export const userSession = new UserSession({ appConfig });
 
-// export function authenticate() {
-//   showConnect({
-//     appDetails: {
-//       name: 'Todos',
-//       icon: window.location.origin + '/logo.svg',
-//     },
-//     redirectTo: '/',
-//     onFinish: () => {
-//       window.location.reload();
-//     },
-//     userSession: userSession,
-//   });
-// }
+export function authenticate() {
+  showConnect({
+    appDetails: {
+      name: 'Todos',
+      icon: window.location.origin + '/logo.svg',
+    },
+    redirectTo: '/',
+    onFinish: () => {
+      window.location.reload();
+    },
+    userSession: userSession,
+  });
+}
 
 // export function getUserData() {
 //   return userSession.loadUserData();
@@ -27,7 +27,7 @@
 //   return new Person(getUserData().profile);
 // }
 
-import { AppConfig, UserSession } from '@stacks/connect'
+// import { AppConfig, UserSession } from '@stacks/connect'
 
-const appConfig = new AppConfig(['store_write', 'publish_data'])
-export const userSession = new UserSession({ appConfig })
+// const appConfig = new AppConfig(['store_write', 'publish_data'])
+// export const userSession = new UserSession({ appConfig })
