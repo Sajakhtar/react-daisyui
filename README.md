@@ -138,4 +138,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # To Do
 
-- stacks.js packages and auth
+- stacks.js packages and auth - done
+- stacks.js logout
+- fix DaisyUI
