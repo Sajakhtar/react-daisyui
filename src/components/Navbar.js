@@ -1,4 +1,4 @@
-import { LoginIcon } from '@heroicons/react/outline';
+// import { LoginIcon } from '@heroicons/react/outline';
 import ThemeChange from './ThemeChange';
 import ConnectWallet from './ConnectWallet';
 
@@ -18,16 +18,16 @@ function Navbar() {
         </div>
         <div className="hidden px-2 mx-2 navbar-center lg:flex">
           <div className="flex items-stretch">
-            <a className="btn btn-ghost btn-sm rounded-btn">
+            <a className="btn btn-ghost btn-sm rounded-btn" href="/">
               Home
             </a>
-            <a className="btn btn-ghost btn-sm rounded-btn">
+            <a className="btn btn-ghost btn-sm rounded-btn" href="/">
               Gallery
             </a>
-            <a className="btn btn-ghost btn-sm rounded-btn">
+            <a className="btn btn-ghost btn-sm rounded-btn" href="/">
               Offers
             </a>
-            <a className="btn btn-ghost btn-sm rounded-btn">
+            <a className="btn btn-ghost btn-sm rounded-btn" href="/">
               Brands
             </a>
           </div>

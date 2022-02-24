@@ -1,4 +1,4 @@
-import { LoginIcon } from '@heroicons/react/outline';
+// import { LoginIcon } from '@heroicons/react/outline';
 // import ThemeChange from './ThemeChange';
 import ConnectWallet from './ConnectWallet';
 

@@ -1,5 +1,5 @@
 // import { SunIcon, MoonIcon } from '@heroicons/react/solid';
-import { useState, useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 
 function ThemeChange() {
   // const [ theme, setTheme ] = useState(document.querySelector('html').dataset.theme);
