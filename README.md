@@ -138,7 +138,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # To Do
 
-- stacks.js packages and auth - done
-- stacks.js logout
-- fix DaisyUI and tailwind - could be an issue to react-scripts from 5.0.0 to 4.0.3
--
+- [x] stacks.js packages and auth - done
+- [ ] stacks.js logout
+- [ ] fix DaisyUI and tailwind - could be an issue to react-scripts from 5.0.0 to 4.0.3
