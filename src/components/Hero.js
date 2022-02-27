@@ -1,6 +1,6 @@
 // import { LoginIcon } from '@heroicons/react/outline';
 // import ThemeChange from './ThemeChange';
-import ConnectWallet from './ConnectWallet';
+// import ConnectWallet from './ConnectWallet';
 
 
 function Hero() {
@@ -15,7 +15,7 @@ function Hero() {
           <p className="mb-5">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
           </p>
-          <ConnectWallet />
+          {/* <ConnectWallet /> */}
         </div>
       </div>
     </div>

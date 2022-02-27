@@ -1,6 +1,6 @@
 // import { LoginIcon } from '@heroicons/react/outline';
 import ThemeChange from './ThemeChange';
-import ConnectWallet from './ConnectWallet';
+// import ConnectWallet from './ConnectWallet';
 
 
 function Navbar() {
@@ -33,7 +33,7 @@ function Navbar() {
           </div>
         </div>
         <div className="navbar-end">
-          <ConnectWallet />
+          {/* <ConnectWallet /> */}
           <ThemeChange/>
         </div>
       </div>
