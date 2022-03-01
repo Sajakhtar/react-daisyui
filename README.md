@@ -146,3 +146,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  - https://github.com/tailwindlabs/tailwindcss/discussions/2833
  - shift tailwindcss, postcss, autoprefixer to dependencies rather than devDependencies
  - Tailwind and/or daisyui doesnt like 4.0.3 and stacks doesnt like 5.0.0 versions of react-scripts
+  - possible thread for troublesohoting: https://stackoverflow.com/questions/68707553/uncaught-referenceerror-buffer-is-not-defined
