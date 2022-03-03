@@ -145,6 +145,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
  - [x] then try moving back to react-scripts 5.0.0
  - https://github.com/tailwindlabs/tailwindcss/discussions/2833
  - shift tailwindcss, postcss, autoprefixer to dependencies rather than devDependencies
- - Tailwind and/or daisyui doesnt like 4.0.3 and stacks doesnt like 5.0.0 versions of react-scripts
+ - Tailwind and/or daisyui doesnt like 4.0.3 and stacks doesn't like 5.0.0 version of react-scripts
   - possible thread for troublesohoting: https://stackoverflow.com/questions/68707553/uncaught-referenceerror-buffer-is-not-defined
-  - tailwindcss 3, but quickly ran into troubles, since tailwindcss 3 relies on Post CSS 8, which is not supported by create-react-app 4.0.3 , so I also needed to upgrade to create-react-app 5.0.0 https://stackoverflow.com/questions/70496613/how-to-upgrade-from-tailwindcss-2-to-3-and-create-react-app-4-0-3-to-5-0-0-due
+  - since tailwindcss 3 relies on Post CSS 8, which is not supported by create-react-app 4.0.3 , need to upgrade to create-react-app 5.0.0 https://stackoverflow.com/questions/70496613/how-to-upgrade-from-tailwindcss-2-to-3-and-create-react-app-4-0-3-to-5-0-0-due
+  - stacks.js requires doesn't work with react-scripts 4.0.3
